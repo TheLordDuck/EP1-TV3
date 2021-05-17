@@ -1,0 +1,10 @@
+Exemple 1:
+
+Permet la càrrega d'un arxiu a la carpeta upload situada en el mateix exemple.
+
+Exemple 2:
+
+Gestiona un espai DragDrop per càrrega de múltiples arxius de cop.
+Utilitza peticions AJAX.
+
+Important llegir els comentaris que us he afegit en el codi per entendre el funcionament. 

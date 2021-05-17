@@ -1,0 +1,36 @@
+<!--
+Test amb PWD : loquesea'; INSERT INTO taula(`usuari`, `pwd`) VALUES('hacker', 'hacker'); --
+
+Test per Drop taula PWD : loquesea'; DROP TABLE taula2; --
+
+Agraiments a  Bartolomé Sintes Marco : https://www.mclibre.org/consultar/php/lecciones/php-db-inyeccion-sql.html
+
+-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Title Page -->  
+    <title>Login</title>
+</head>
+<body>
+<h4><i>Test cercar doble o simple cometa : loquesea' OR '1'='1; --</i></h4>
+<h4><i>Test cercar : loquesea' AND usuario='loquesea</i></h4>
+<h4><i>Test amb PWD : loquesea'; INSERT INTO taula(`usuari`, `pwd`) VALUES('hacker', 'hacker'); --</i></h4>
+<h4><i>Test per Drop taula PWD : loquesea'; DROP TABLE taula2; --</i></h4>
+
+    <div id="container">
+        <form action="consulta.php" method="post">
+            <!-- Username -->
+            Nom :<input name="usuari" type="text">
+            <!-- Password -->
+            PWD : <input name ="pwd" type="text">
+			CadenaPHP : <input name ="cadenaPHP" type="text">
+            <!-- Submit Button -->
+            <input type="submit" value="Login">
+            </div>
+        </form>       
+    </div>
+</body>
+</html>

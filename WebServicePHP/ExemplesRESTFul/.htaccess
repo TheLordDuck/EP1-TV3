@@ -1,0 +1,10 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+#NC : No tenir en compte majúsucles/minúscules
+#QSA : L'adreça URL disposa de més paràmetres que cal respectar
+#L : Deixa d'avaluar regles posteriors
+
+# Regles de redireccionament
+RewriteRule ^client/$   ResfullAPI.php [nc,qsa]
+RewriteRule ^client/([0-9]+)$   ResfullAPI.php?id=$1 [nc,qsa]

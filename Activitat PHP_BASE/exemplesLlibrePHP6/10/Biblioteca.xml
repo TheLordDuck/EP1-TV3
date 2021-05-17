@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Biblioteca>
+ <Libro leido="2004-07">
+  <Titulo>La fierecilla domada</Titulo>
+  <Autor>William Shakespeare</Autor>
+  <Recomendable/>
+  <Comentario>
+<![CDATA[
+<De cómo Petruchio logra domar a Kate & hace posible la boda de
+su hermana Bianca.>
+]]>
+  </Comentario>
+ </Libro>
+ <Libro leido="2004-08">
+  <Titulo>Nubosidad variable</Titulo>
+  <Autor>Carmen Martín Gaite</Autor>
+ </Libro>
+ <Libro leido="2004-04">
+  <Titulo>El manuscrito carmesí</Titulo>
+  <Autor>Antonio Gala</Autor>
+ </Libro>
+</Biblioteca>

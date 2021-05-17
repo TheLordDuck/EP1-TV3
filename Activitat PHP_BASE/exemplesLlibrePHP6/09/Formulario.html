@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Formulario HTML</title>
+  <meta http-equiv="Content-type"
+      content="text/html;charset=ISO-8859-1" />
+  <style type="text/css">
+    * { font-family: monospace }
+  </style>
+</head>
+<body>
+  <h1>Formulario HTML</h1>
+<p>
+<form action="Suscripcion.php"
+      method="post">
+<div style="float: left; padding-right: 0.5em; margin-right: 0.5em; border-right: 1px dotted black">
+ <p>Correo electrónico: <input size="20"
+    title="Introduzca su dirección de
+    correo electrónico"
+    maxlength="50"  value="cuenta@dominio.com"
+    name="correo" id="correo" />
+ </p>
+ <p>
+  <textarea cols="50" rows="10"
+    id="comentario" name="comentario">
+    Háganos llegar sus comentarios sobre
+nuestro servicio
+  </textarea>
+ </p>
+</div>
+<p>
+ <input type="checkbox"
+   id="publicidad" name="publicidad"
+   checked="checked" value="sí"
+   title="Desmarque esta opción si no
+          quiere publicidad" />
+   Recibir información publicitaria de Anaya
+</p>
+
+<p>
+ Recibir la publicidad en formato<br />
+ <input type="radio" name="formato"
+  checked="checked" id="html" value="HTML" />
+ HTML
+ <input type="radio" name="formato"
+  id="texto" value="texto" />
+ Sólo texto
+ <input type="radio" name="formato"
+  id="pdf" value="pdf" />
+ PDF
+</p>
+
+<p>
+Elija los temas que le interesan<br />
+<select id="categorias" name="categorias[]"
+ multiple="multiple" size="5">
+ <option value="DisWeb">Diseño web</option>
+ <option value="Ofimatica">Ofimática</option>
+ <option value="Prog">Programación</option>
+ <option value="Grafico">Diseño gráfico</option>
+</select>
+</p>
+
+<p style="clear: left">
+<button type="submit">Suscribirse</button>
+<button type="reset">Reiniciar</button>
+</p>
+</form>
+</body>
+</html>

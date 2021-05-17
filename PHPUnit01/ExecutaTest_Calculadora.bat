@@ -1,0 +1,1 @@
+c:\xampp\php\php c:\xampp\php\phpunit-8.5.4.phar --bootstrap C:\xampp\htdocs\ep1_2020\Miki\Bloc3\PHPUnit01\Calculadora.php tests\Calculadora_test.php
